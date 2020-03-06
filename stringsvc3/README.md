@@ -1,5 +1,5 @@
 # stringsvc2
-> The same thing as stringsvc1 but with a better structure and middlewares.
+> The same thing as stringsvc2 but with proxying.
 
 ## Start
 ### Run service

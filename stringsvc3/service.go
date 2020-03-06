@@ -14,6 +14,8 @@ type StringService interface {
 
 type stringService struct{}
 
+type ServiceMiddleware func(StringService) StringService
+
 func (stringService) Uppercase(s string) (string, error) {
 	if s == "" {
 		return "", ErrEmpty
